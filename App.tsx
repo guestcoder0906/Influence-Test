@@ -187,11 +187,11 @@ const ResultCard: React.FC<ResultCardProps> = ({ result }) => {
         </div>
         
         <div>
-            <h3 className={`text-xl font-semibold mb-2 ${result.textColor}`}>In Relationships</h3>
+            <h3 className={`text-xl font-semibold mb-2 ${result.textColor}`}>Social Habit</h3>
             <p className="text-gray-300">{result.friendships}</p>
         </div>
         <div>
-            <h3 className={`text-xl font-semibold mb-2 ${result.textColor}`}>You Might Agree...</h3>
+            <h3 className={`text-xl font-semibold mb-2 ${result.textColor}`}>You Might Say...</h3>
             <p className="text-gray-300 italic">"{result.examples}"</p>
         </div>
       </div>
@@ -351,10 +351,10 @@ function App() {
 
   return (
     <main className="container mx-auto px-4 py-12 flex flex-col items-center justify-center min-h-screen text-center text-white">
-      <h1 className="text-5xl md:text-6xl font-extrabold mb-4 text-gray-100">Discover Your Influence</h1>
-      <p className="text-xl md:text-2xl font-light text-cyan-300 mb-6">How do you naturally make an impact?</p>
+      <h1 className="text-5xl md:text-6xl font-extrabold mb-4 text-gray-100">The Influence Framework</h1>
+      <p className="text-xl md:text-2xl font-light text-cyan-300 mb-6">Discover how your presence moves in a room.</p>
       <p className="max-w-3xl mx-auto text-lg text-gray-300 mb-10">
-        Everyone leaves a mark on the world, often in ways we don't fully recognize. Whether you're leading a team, challenging ideas, or offering quiet support, your influence has a unique signature. This insightful test is designed to help you discover that personal style. By exploring how you react to different situations, you'll receive a detailed profile revealing your core strengths and how you can use them more consciously.
+        This framework isn’t about “who you are” as a personality. It’s about how your presence moves in a room. It tracks the direction of your influence and the way your energy interacts with other people and environments. This test helps you gain awareness of your influence pattern so you can stop acting on autopilot and recognize where your power truly comes from.
       </p>
       <button
         onClick={handleStartQuiz}

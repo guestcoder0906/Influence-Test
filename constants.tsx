@@ -66,105 +66,105 @@ const questionsData: { typeId: InfluenceTypeId, strengths: QuestionDetail[], wea
   { 
     typeId: InfluenceTypeId.A, 
     strengths: [
-      { text: 'I actively shape my circumstances instead of just reacting to them', example: "Instead of waiting for an opportunity, I'll create the project and team to make it happen." },
-      { text: 'I\'m quick to understand the real power dynamics in any group', example: "I can quickly identify who holds the real influence in a meeting, regardless of titles." },
-      { text: 'My focused energy can shift a group\'s dynamic and direction', example: "When I join a discussion, the energy shifts and people start focusing on a solution." },
-      { text: 'I create systems or plans that others naturally start to follow', example: "I set up the new workflow, and now everyone follows it without question." },
-      { text: 'When I enter a room, the atmosphere often shifts and people adjust their behavior', example: "When I walk into a chaotic room, things tend to quiet down and become more orderly." }
+      { text: 'I recalibrate the situation when the direction feels unfocused', example: "In a meeting that's going in circles, I'll say, 'Let's pause and redefine our main objective here.'" },
+      { text: 'I initiate movement rather than wait for external momentum', example: "Instead of waiting for approval, I'll start a small-scale prototype to demonstrate the concept's value." },
+      { text: 'I challenge avoidance when progress is stalled', example: "When the team is avoiding a tough decision, I'll put it on the table and facilitate the conversation." },
+      { text: 'I assert structure when things become vague or inefficient', example: "If a project lacks clear roles, I'll propose a structure and define responsibilities for everyone." },
+      { text: 'My focused intention can sculpt reality and bring about desired outcomes', example: "By consistently communicating my vision, I was able to get a cross-functional team aligned on a difficult project." },
+      { text: 'I monitor the environment to ensure it aligns with my intended direction', example: "I regularly check in on key metrics and team morale to make sure we're still on the right trajectory." }
     ], 
     weaknesses: [
-      { text: 'My strong self-assurance can sometimes blind me to better ideas', example: "I was so sure my plan was right that I dismissed a better idea from a teammate." },
-      { text: 'I can mistake forcing my will on others for collaborative creation', example: "I thought I was building a team, but I was just telling everyone exactly what to do." },
-      { text: 'Constantly pushing my agenda can leave me feeling completely drained', example: "After pushing my agenda all week, I'm too tired to do anything else." },
-      { text: 'I sometimes create exclusive groups when being more collaborative would be more effective', example: "I created a very exclusive team, but now we're isolated and lack diverse input." },
-      { text: 'Pushing hard for something can create unexpected pushback from others', example: "I pushed hard for a change, and now some people are quietly sabotaging it." }
+      { text: 'I can be so focused on my vision that I overlook valuable input from others', example: "I was so certain about my approach that I didn't fully listen to a teammate's valid concerns until it was too late." },
+      { text: 'In conflict, my instinct is to increase my directional push', example: "When faced with resistance, my immediate reaction is to double down on my position instead of seeking compromise." },
+      { text: 'My drive to push outcomes can create pressure on those around me', example: "I've been told that my intensity about deadlines can sometimes stress out the team." },
+      { text: 'I tend to engage deeply only with people who demonstrate tangible capability', example: "I realize I spend most of my time with the 'A-players' and might be neglecting to develop others." }
     ] 
   },
   { 
     typeId: InfluenceTypeId.B, 
     strengths: [
-      { text: 'I read the emotional atmosphere of every room I enter', example: "I knew something was wrong at the party as soon as I walked in, even though everyone was smiling." },
-      { text: 'My genuine nature seems to make others trust me and open up quickly', example: "People often tell me their secrets, even if we've just met." },
-      { text: 'I understand the hidden language of heart and gesture', example: "I could tell by their posture, not their words, that they were hurt." },
-      { text: 'People have told me they feel truly seen and heard when talking with me', example: "A friend once told me, 'I feel like you actually see me when we talk.'" },
-      { text: 'I\'m good at helping people understand each other\'s feelings during conflicts', example: "I was able to explain why two friends were misunderstanding each other, helping them reconcile." }
+      { text: 'I am highly attuned to subtle shifts in tone, mood, or atmosphere', example: "I walked into the office and immediately sensed the tension, even though everyone was acting normal." },
+      { text: 'I feel a strong need to understand the "why" behind someone\'s behavior', example: "Instead of getting upset at a colleague's comment, I try to understand what experience or fear might be driving it." },
+      { text: 'I constantly track whether a situation aligns with my personal values', example: "I turned down a project because, while profitable, it didn't feel ethically right to me." },
+      { text: 'I detach and recenter myself when overwhelmed instead of reacting immediately', example: "During a heated argument, I said 'I need a moment' and stepped away to think before responding." },
+      { text: 'I hold back my own expression until I feel I fully understand what is happening emotionally', example: "I listened to a friend vent for an hour, asking questions to understand, before offering any advice or sharing my own feelings." },
+      { text: 'My engagement with others is based on a feeling of authentic vibration and emotional safety', example: "I can't maintain a friendship that feels fake; I need to know the connection is genuine." }
     ], 
     weaknesses: [
-      { text: 'I often absorb the emotions of people around me, leaving me feeling what they feel', example: "After talking with a sad friend, I feel drained and sad for the rest of the day." },
-      { text: 'I tend to agree to things I don\'t want to do just to avoid conflict', example: "I agreed to something I didn't want to do just to avoid a conflict." },
-      { text: 'A compelling, emotional story can sometimes make me overlook the hard facts', example: "I was so convinced by their tearful story that I didn't check the facts." },
-      { text: 'I worry so much about how others will feel that it\'s hard to make decisions for myself', example: "I can't make a decision for myself because I'm too worried about how it will make everyone else feel." },
-      { text: 'I can become so focused on helping others that I neglect my own important responsibilities', example: "I spent all weekend helping others and forgot about my own important deadline." }
+      { text: 'When emotionally overstimulated, my first instinct is to withdraw to reset', example: "After a long, intense social event, I need a full day alone to feel like myself again." },
+      { text: 'I can "disappear" socially when I need to protect my inner clarity', example: "Friends know that I sometimes go offline for a few days without explanation to recharge." },
+      { text: 'My need to re-center on my values can cause me to disengage sharply from conflicts', example: "If an argument becomes about winning instead of understanding, I just shut down and walk away." },
+      { text: 'I go quiet and reserved when a situation violates my internal standards', example: "During a meeting where a decision felt wrong, I stopped contributing and just observed." }
     ] 
   },
   { 
     typeId: InfluenceTypeId.C, 
     strengths: [
-      { text: 'I see the hidden patterns connecting all things', example: "I noticed a link between customer complaints and a recent software update that no one else had." },
-      { text: 'I enjoy finding ways to connect different ideas or systems that seem unrelated', example: "I saw how the marketing and sales databases could be combined to create better leads." },
-      { text: 'In any specific problem, I can usually spot the larger, underlying principle at play', example: "This team's conflict isn't just about this project; it's a classic example of resource scarcity." },
-      { text: 'I\'m good at explaining complex ideas in a way that anyone can understand', example: "I can explain the engineer's technical concerns to the design team in a way they understand." },
-      { text: 'I often create models or systems to help people grasp complex topics', example: "I created a flowchart that helped everyone understand the complex approval process." }
+      { text: 'I am always looking for the underlying structure or pattern beneath what is immediately visible', example: "While others saw a sales dip, I saw a pattern connected to our recent marketing shift." },
+      { text: 'I have a knack for combining separate, disparate concepts into a single coherent framework', example: "I was able to connect the engineering team's goals with the marketing team's strategy in a way that made sense to both." },
+      { text: 'I prioritize depth and internal logic over scattered, superficial information', example: "I'd rather read one well-researched book on a topic than skim a dozen articles." },
+      { text: 'I maintain a sense of internal conceptual order, even in highly complex or ambiguous situations', example: "Even when a project is chaotic, I keep a clear mental map of how all the pieces should connect." },
+      { text: 'I evaluate new ideas based on how well they fit into the broader systems I am mentally constructing', example: "When someone suggests a new feature, my first thought is how it impacts the entire user experience, not just its standalone value." },
+      { text: 'When presented with new data, my first instinct is to see how it requires me to update my existing mental frameworks', example: "After reading a surprising study, I spent the afternoon rethinking my assumptions on the topic." }
     ], 
     weaknesses: [
-      { text: 'I can spend more time perfecting a plan on paper than actually doing the work', example: "I spent weeks perfecting a project plan but we never actually started the work." },
-      { text: 'My proposed solutions can be theoretically brilliant but too difficult or costly to implement', example: "My solution was theoretically perfect but would have been too expensive and slow to implement." },
-      { text: 'I can become more focused on following the correct process than on achieving a great outcome', example: "I was more focused on making sure the process was followed than on whether we got a good result." },
-      { text: 'I sometimes design complex systems that are too difficult for people to actually use', example: "I designed a comprehensive organizational system, but it was too complicated for anyone to use." },
-      { text: 'I can spend so much time researching how to do something that I never get around to trying it', example: "I spent so much time researching the best way to learn guitar that I never actually practiced." }
+      { text: 'I can appear detached in social contexts because I am often gathering data and observing', example: "I was quiet during dinner, not because I was bored, but because I was fascinated by the group's dynamics." },
+      { text: 'I take a long time to finalize conclusions because I am busy aligning multiple layers of meaning', example: "My team gets frustrated because I won't sign off on a plan until I'm sure I've considered every angle." },
+      { text: 'My need for information to "fit" my mental models can make me appear overly analytical or skeptical', example: "I'm often the one asking 'But how does that connect to...?' which can slow down brainstorming sessions." },
+      { text: 'I prefer intellectual exploration, which can make me seem disengaged in more conventional social conversations', example: "I have a hard time with small talk because my mind is always looking for a deeper pattern to discuss." }
     ] 
   },
   { 
     typeId: InfluenceTypeId.D, 
     strengths: [
-      { text: 'I find profound meaning in single moments', example: "That simple moment of watching the sunset felt more important than my whole week's work." },
-      { text: 'I have a talent for turning routine activities into something fun and exciting', example: "A boring trip to the grocery store with me can turn into a fun adventure." },
-      { text: 'I can easily switch from having a deep, serious conversation to being playful and lighthearted', example: "We can be having a deep, philosophical conversation one minute and laughing hysterically the next." },
-      { text: 'I believe that proactively seeking joy is essential for a good life', example: "I believe that actively seeking out joyful experiences is essential for a well-lived life." },
-      { text: 'When plans fall apart, I\'m good at improvising and coming up with a creative new approach', example: "When our plan fell apart, I was able to quickly come up with a new, better idea on the spot." }
+      { text: 'I naturally shift my approach and tone based on how others are reacting', example: "I noticed the audience was losing focus, so I changed my presentation style to be more interactive and engaging." },
+      { text: 'I enjoy creating movement and liveliness in group settings', example: "If a party feels dull, I'm the one who'll suggest a game or put on music to get things going." },
+      { text: 'I feel a sense of responsibility for maintaining momentum and engagement during interactions', example: "In a conversation, I actively work to prevent awkward silences and keep the energy flowing." },
+      { text: 'I prefer dynamic environments where the tone and mood can shift freely and spontaneously', example: "I thrive in brainstorming sessions where ideas are flowing fast and the energy is high." },
+      { text: 'My actions are often grounded and practical, focused on the immediate situation', example: "Instead of debating theory, I'd rather build a quick prototype to see if the idea actually works in practice." }
     ], 
     weaknesses: [
-      { text: 'I often operate on a different wavelength than most people', example: "While everyone else is stressed about a deadline, I'm captivated by the pattern the rain is making on the window." },
-      { text: 'I prefer to disengage from heated arguments and focus on my own inner peace', example: "Instead of arguing about politics, I'd rather just go for a walk and enjoy my own thoughts." },
-      { text: 'I love brainstorming new ideas but tend to lose interest when it\'s time to focus on the details', example: "I love brainstorming new ideas with people, but I get bored when it's time to work on the tedious details." },
-      { text: 'I dislike rigid schedules and prefer to work when I feel inspired', example: "I hate having a rigid schedule; I do my best work when I can follow my inspiration." },
-      { text: 'I\'m great at starting new and exciting projects, but I struggle to see them through to completion', example: "I have a dozen exciting projects I've started, but I haven't finished any of them." }
+      { text: 'I sometimes test people\'s reactions without explicitly stating my intentions', example: "I might make a provocative comment just to see how someone will respond." },
+      { text: 'I have a tendency to test boundaries out of curiosity rather than for a specific purpose', example: "I asked a question in a meeting that I knew would make things a bit uncomfortable, just to see what would happen." },
+      { text: 'In conflict, I\'m more likely to deflect by shifting the tone or creating a distraction', example: "When a conversation got too heated, I made a joke to break the tension instead of addressing the issue directly." },
+      { text: 'My focus on adapting to the moment can mean I avoid long-term, abstract planning', example: "I'm great at improvising, but I struggle to create and stick to a detailed five-year plan." },
+      { text: 'I sometimes intentionally shift the atmosphere of a room just to see how others will adapt', example: "I once played somber music at a cheerful gathering to observe how the mood would change." }
     ] 
   },
   { 
     typeId: InfluenceTypeId.E, 
     strengths: [
-      { text: 'I understand influence through strategic non-action', example: "By not immediately responding to a provocative email, I let the situation calm down and resolve itself." },
-      { text: 'My silence speaks louder than others\' words', example: "In a heated debate, my refusal to engage made everyone else reconsider their positions." },
-      { text: 'I\'m strategic about where I spend my energy, avoiding pointless tasks or arguments', example: "I don't waste time on pointless arguments, saving my energy for what truly matters." },
-      { text: 'My patience outlasts others\' urgency', example: "Everyone panicked and sold their stocks, but I waited and avoided a major loss." },
-      { text: 'I create impact through precise, minimal intervention', example: "A single, well-timed question from me completely changed the direction of the meeting." }
+      { text: 'I\'m very selective about where I invest my energy, focusing only on what I feel is truly worth it', example: "I declined a meeting invitation because I assessed that my input wasn't essential and my time was better spent elsewhere." },
+      { text: 'I have a default tendency to conserve my emotional energy', example: "I don't get worked up about minor issues; I save my energy for the things that truly matter." },
+      { text: 'I prefer to let things resolve on their own without my interference or control', example: "Two colleagues were in a minor disagreement, and I chose to let them work it out themselves rather than stepping in." },
+      { text: 'I often observe a situation for a while before committing any emotional investment', example: "I'll listen to the whole debate before I decide where I stand and speak up." },
+      { text: 'I naturally step back from situations that feel scattered, chaotic, or inefficient', example: "The project planning was all over the place, so I stepped back until there was a clearer direction." },
+      { text: 'I stay involved in a project or discussion only as long as the outcome genuinely matters to me', example: "Once I realized the decision wouldn't affect my work, I stopped participating in the lengthy debate." }
     ], 
     weaknesses: [
-      { text: 'I sometimes see a problem and choose not to get involved to save energy, even if it gets worse', example: "I saw a problem but decided it wasn't worth my energy to get involved, and it got worse." },
-      { text: 'I observe life from a distance too often', example: "My friends have inside jokes from adventures I chose to watch from the sidelines." },
-      { text: 'I have a tendency to wait for the \'perfect moment,\' which sometimes means I don\'t act at all', example: "I keep waiting for the 'perfect moment' to start my project, but it never seems to arrive." },
-      { text: 'I sometimes believe I\'m being objective when, in reality, I\'m just emotionally disconnected', example: "I thought I was being objective, but I was just emotionally disconnected from a friend who needed support." },
-      { text: 'My stillness becomes stagnation', example: "I've been in the same role for years because it's comfortable, even though I'm no longer growing." }
+      { text: 'My selective engagement can be mistaken for apathy or a lack of caring', example: "A coworker thought I didn't care about the project, but I was just waiting for a moment where my contribution would be most effective." },
+      { text: 'I tend to avoid involvement in issues unless they directly affect me or my core interests', example: "I didn't join the committee to plan the office party because it just didn't feel like a good use of my time." },
+      { text: 'In conflict, my instinct is to shut down my investment entirely to conserve energy', example: "When an argument started getting heated and unproductive, I just emotionally checked out." },
+      { text: 'I am more comfortable on a stable, conventional path and require something meaningful to interrupt my pattern', example: "I've been in the same job for years; it would take a really special opportunity for me to consider leaving." }
     ] 
   },
   { 
     typeId: InfluenceTypeId.F, 
     strengths: [
-      { text: 'In chaotic situations, people look to me as a source of calm and stability', example: "During a crisis, people come to me because my calmness helps them feel steady." },
-      { text: 'When I\'m part of a conversation, it often shifts toward more meaningful topics', example: "With me, conversations often turn away from trivial gossip toward more meaningful topics." },
-      { text: 'People trust me because they know I\'m reliable and always keep my word', example: "People trust me because I've always followed through on my promises, year after year." },
-      { text: 'I believe that anything truly worthwhile takes slow, consistent effort over a long time', example: "I'm not looking for quick fixes; I'm willing to put in the slow, consistent work to build something that lasts." },
-      { text: 'My predictable and reliable nature helps create a stable environment for others to thrive', example: "My friend knows they can call me at the same time every Sunday, and that reliability has helped them through a tough time." }
+      { text: 'I\'m adept at maintaining my own pacing rather than letting others dictate the tempo', example: "When everyone is rushing, I intentionally slow down to ensure the quality of my work is not compromised." },
+      { text: 'In chaotic situations, my first instinct is to restore coherence and stability', example: "During a crisis at work, I focused on creating a clear, step-by-step plan to get everyone on the same page." },
+      { text: 'I manage control by adjusting the tempo of a situation, rather than by using direct force', example: "Instead of demanding a change, I gradually introduced new processes over time to let the team adapt comfortably." },
+      { text: 'I\'m able to switch between patience and assertiveness depending on what the context requires', example: "I was patient while my team was learning a new skill, but became assertive when the final deadline was approaching." },
+      { text: 'I often work to stabilize an environment before trying to address the root cause of a problem', example: "I first calmed everyone down after a heated argument, before we tried to discuss what the core issue was." },
+      { text: 'I preserve a strong internal sense of order, even when my external environment is disorganized', example: "Even if my desk is messy, my digital files and internal thought processes are meticulously organized." },
+      { text: 'My foresight comes from understanding how past choices shape the present and future', example: "I advised against a risky shortcut because I've seen similar decisions lead to long-term problems in the past." }
     ], 
     weaknesses: [
-      { text: 'I find it hard to let go of things, even when it\'s clear that it\'s time for them to end', example: "I held on to a failing project for too long because I couldn't accept it was over." },
-      { text: 'I sometimes mistake my inner compass for the only true north', example: "I was so sure my way was the 'right' way that I wasn't open to a colleague's valid alternative." },
-      { text: 'My comfortable routines and habits can hold me back from new experiences', example: "My daily routines are so comforting that I've turned down opportunities for new experiences." },
-      { text: 'My instinct in chaotic situations is to shut down rather than look for the opportunities within them', example: "When things get unpredictable and messy, my first instinct is to shut down rather than see the opportunity." },
-      { text: 'My deep roots make transplantation to new soil painful', example: "Moving to a new city was incredibly difficult for me, even though it was a great opportunity." },
-      { text: 'I can get so focused on preserving old ways of doing things that I resist new, potentially better, ideas', example: "I'm so focused on preserving our old traditions that I'm resisting new ideas that could help us grow." },
-      { text: 'My commitment to structure can blind me to the magic of the unplanned', example: "A spontaneous trip invitation stressed me out because it wasn't in my schedule, so I said no." }
+      { text: 'I get easily irritated when the pacing of a project or conversation becomes disorganized', example: "It visibly frustrates me when a meeting has no clear agenda and people keep going off-topic." },
+      { text: 'My need to maintain order can make me "snap" if disorder persists for too long', example: "After weeks of a chaotic workflow, I finally had to insist, 'We are going to follow the process, no exceptions!'" },
+      { text: 'I feel a subtle friction or irritation when encountering perspectives that challenge my established way of seeing things', example: "I found myself mentally arguing with a presenter whose ideas fundamentally contradicted my own well-established beliefs." },
+      { text: 'My responses are deliberate and calibrated, which can make me seem distant while I\'m processing', example: "Someone asked for my opinion, and my long pause to think made them think I was uninterested." },
+      { text: 'I tend to grant my attention primarily to people who have proven themselves to be consistent and reliable', example: "I'm hesitant to collaborate with a new colleague until I've seen that their work is dependable." }
     ] 
   },
 ];
@@ -180,61 +180,61 @@ const extractedText = questionsData.reduce((acc, curr) => {
 
 export const INFLUENCE_TYPES: InfluenceTypeInfo[] = [
   { 
-    id: InfluenceTypeId.A, name: 'Imposition', title: 'Influence Imposition', 
-    description: 'Influences by projecting a strong will and building structures that reshape social dynamics through direct force and presence.', 
-    longDescription: 'You influence by projecting a strong will and building structures that reshape social dynamics through direct force and presence.', 
-    friendships: 'Prefers relationships with clear purpose or mutual benefit. Values loyalty and competence. Can be a powerful ally but may struggle with friendships that are purely for emotional support without a shared goal.',
-    examples: '"The best way to solve a problem is to take charge." "Structure and hierarchy are necessary for success." "I respect people who can execute a plan."',
+    id: InfluenceTypeId.A, name: 'Imposition', title: 'Influence: Imposition', 
+    description: 'Drives direction by adjusting internal and external models to push transformation in chosen outcomes.',
+    longDescription: 'Those who understand that reality is not fixed but malleable to conscious will. They perceive the invisible architecture of power and energy in every situation, and their fundamental drive is to sculpt reality through focused intention and structural intelligence. These individuals often present a reserved or measured exterior, but the restraint is intentional. Their influence does not rely on volume or social presence; it comes from internal direction and clarity of intent. They tend to construct their own trajectory rather than adapt to external expectations.', 
+    friendships: 'They engage deeply with those who demonstrate substantive character and tangible capability. Their conversations are investments in individuals who possess both inner depth and external competence, seeing others as potential collaborators in their visionary projects.',
+    examples: '"Let\'s reframe this to get back on track." "We can\'t stall here, a decision needs to be made." "I need to think, then I will act."',
     strengths: extractedText.A.strengths,
     weaknesses: extractedText.A.weaknesses,
     color: 'bg-red-900/40 border-red-700', textColor: 'text-red-400', icon: IconA 
   },
   { 
-    id: InfluenceTypeId.B, name: 'Impassioned', title: 'Influence Impassioned', 
-    description: 'Influences through authentic emotional attunement, understanding others deeply to build trust and translate complex feelings into connection.', 
-    longDescription: 'You influence through authentic emotional attunement, understanding others deeply to build trust and translate complex feelings into connection.', 
-    friendships: 'Seeks deep, emotionally intimate connections. Is the friend everyone goes to for advice and a listening ear. Values authenticity and vulnerability, but can sometimes become overly invested in friends\' problems.',
-    examples: '"I can feel the energy change when someone walks into a room." "It\'s important to understand where someone is coming from emotionally." "Authenticity is everything to me."',
+    id: InfluenceTypeId.B, name: 'Impassioned', title: 'Influence: Impassioned', 
+    description: 'Seeks interpersonal coherence and emotional context, withdraws to recenter values when overwhelmed.',
+    longDescription: 'Those who navigate the world through profound emotional resonance. They perceive the subtle currents of feeling and authenticity that flow beneath surface interactions, and their power lies in creating spaces of genuine connection. Their intelligence operates through intuitive social sensing. They perceive interpersonal dynamics and moral structures as ongoing patterns. Their emotional expression is integrated with reasoning, and they read tone, implication, and relational gravity quickly, often without conscious effort.',
+    friendships: 'They maintain contact based on intuitive standards of emotional safety and authentic vibration. Their engagement is a careful calibration - they withdraw from what feels dissonant and deepen connections with those who demonstrate respectful understanding.',
+    examples: '"I\'m tracking the tone here more than the words." "I need to withdraw to get clear on my values." "I need to understand why they feel that way."',
     strengths: extractedText.B.strengths,
     weaknesses: extractedText.B.weaknesses,
     color: 'bg-purple-900/40 border-purple-700', textColor: 'text-purple-400', icon: IconB 
   },
   { 
-    id: InfluenceTypeId.C, name: 'Integrative', title: 'Influence Integrative', 
-    description: 'Influences by synthesizing complex information, seeing hidden patterns, and creating intellectual frameworks that connect disparate systems and ideas.', 
-    longDescription: 'You influence by synthesizing complex information, seeing hidden patterns, and creating intellectual frameworks that connect disparate systems and ideas.', 
-    friendships: 'Enjoys friendships based on intellectual stimulation and shared ideas. Loves a good debate and exploring complex topics. Can sometimes seem detached if the conversation isn\'t mentally engaging.',
-    examples: '"Everything is connected if you look closely enough." "Let\'s look at this from a different perspective." "I need to understand the underlying principles of how this works."',
+    id: InfluenceTypeId.C, name: 'Integrative', title: 'Influence: Integrative', 
+    description: 'Synthesizes intellectual and emotional data for layered understanding and long-range insight.',
+    longDescription: 'Those who see the hidden patterns connecting disparate systems of thought and being. Their consciousness operates as a synthesizing force, finding coherence in complexity and building bridges between seemingly separate realms of understanding. For this type, knowledge is absorbed to be reorganized, cross-referenced, and synthesized. Their curiosity is driven by structural understanding, not novelty. They create internal systems of meaning—frameworks that connect concepts across domains, forming a coherent cognitive architecture.', 
+    friendships: 'They are drawn to minds capable of authentic intellectual exploration and reflective depth. Their conversations become laboratories for thought, valuing the process of connecting ideas over mere social convention or superficial exchange.',
+    examples: '"This pattern reminds me of a concept from a totally different field." "I need more time, the pieces don\'t fit together yet." "Let\'s look at the underlying structure here."',
     strengths: extractedText.C.strengths,
     weaknesses: extractedText.C.weaknesses,
     color: 'bg-blue-900/40 border-blue-700', textColor: 'text-blue-400', icon: IconC 
   },
   { 
-    id: InfluenceTypeId.D, name: 'Indulgence', title: 'Influence Indulgence', 
-    description: 'Influences by embodying a flexible, joyful presence that finds profound meaning in the moment and transforms ordinary experiences, often resisting rigid structures.', 
-    longDescription: 'You influence by embodying a flexible, joyful presence that finds profound meaning in the moment and transforms ordinary experiences, often resisting rigid structures.', 
-    friendships: 'Spontaneous and fun-loving. Seeks friends who appreciate living in the moment and don\'t take things too seriously. Brings a sense of play and joy to relationships, but may shy away from heavy emotional demands.',
-    examples: '"Why worry about tomorrow when today is so beautiful?" "The best plan is no plan." "Let\'s just see where the day takes us."',
+    id: InfluenceTypeId.D, name: 'Indulgence', title: 'Influence: Indulgence', 
+    description: 'Stimulates environments and tracks reactions to generate shared engagement or momentum.',
+    longDescription: 'Those who master the art of presence and find profound meaning in momentary experience. They possess broad cognitive flexibility and can move across topics, interests, and environments smoothly. They adapt quickly because they understand multiple perspectives well enough to operate functionally in each. Their decisive movement often emerges in the physical or immediate domain rather than in abstract planning. They excel in environments where versatility and responsiveness are more valuable than depth in a single specialization.',
+    friendships: 'They communicate through the quality of presence itself, equally comfortable with deep philosophical exploration and light spontaneous exchange. Their interactions are dances in the immediate moment, valuing genuine connection over predetermined formats.',
+    examples: '"Let\'s try something just to see what happens." "I\'m just trying to get some energy going in the room." "Their reaction told me everything I need to know."',
     strengths: extractedText.D.strengths,
     weaknesses: extractedText.D.weaknesses,
     color: 'bg-yellow-900/40 border-yellow-700', textColor: 'text-yellow-400', icon: IconD 
   },
   { 
-    id: InfluenceTypeId.E, name: 'Indifference', title: 'Influence Indifference', 
-    description: 'Influences through calculated non-action, using strategic patience, silence, and precise, minimal intervention to conserve energy and achieve impact over time.', 
-    longDescription: 'You influence through calculated non-action, using strategic patience, silence, and precise, minimal intervention to conserve energy and achieve impact over time.', 
-    friendships: 'Values low-maintenance, high-trust relationships. Doesn\'t need constant contact but is deeply loyal to a select few. Appreciates friends who are independent and respect their need for space and quiet observation.',
-    examples: '"Sometimes the most powerful move is to do nothing at all." "I\'m just observing." "Let\'s wait and see how this plays out before we react."',
+    id: InfluenceTypeId.E, name: 'Indifference', title: 'Influence: Indifference', 
+    description: 'Conserves energy by detaching from outcomes and allowing systems to self-sort.',
+    longDescription: 'Those who wield influence through strategic conservation and precise deployment of energy. They understand the power of stillness, creating impact through what they choose not to do as much as through their actions. This influence is defined by selective engagement. They evaluate whether connections, ideas, or tasks are worth investment before committing any energy. This can look like apathy, but it is often an efficiency strategy rooted in conserving effort for what genuinely aligns. They move along a stable path unless something meaningful interrupts their pattern.',
+    friendships: 'Their engagement is highly selective, reserved for topics and people that resonate with their core interests on a fundamental level. They communicate through meaningful silence as much as speech, creating spaces where what isn\'t said holds as much weight as what is.',
+    examples: '"This will likely resolve itself without my input." "I\'m conserving my energy for a more important issue." "My involvement here won\'t change the outcome."',
     strengths: extractedText.E.strengths,
     weaknesses: extractedText.E.weaknesses,
     color: 'bg-green-900/40 border-green-700', textColor: 'text-green-400', icon: IconE 
   },
   { 
-    id: InfluenceTypeId.F, name: 'Inplaced', title: 'Influence Inplaced', 
-    description: 'An anchor of profound stability and integrity for others, yet this same immovable nature makes you a fortress, resistant to the essential forces of change, chaos, and new growth.', 
-    longDescription: 'You are an anchor of profound stability and integrity for others. You engage through a framework of demonstrated reliability and easy resonance. Your attention is granted to those who prove themselves consistent and relatable. While you maintain an openness to intriguing qualities in others, you experience a subtle friction when encountering perspectives that challenge your deeply-rooted systems of understanding—a slight irritation at what disturbs your established order of things.', 
-    friendships: 'The bedrock of their social circle. Values stability, tradition, and reliability. Friends are often for life. Appreciates shared history and comfortable routines. Can be slow to warm up to new people.',
-    examples: '"If it isn\'t broken, don\'t fix it." "Let\'s stick to what we know works." "My word is my bond."',
+    id: InfluenceTypeId.F, name: 'Inplaced', title: 'Influence: Inplaced', 
+    description: 'Maintains controlled progression and stability, shifts pace (slow or forceful) to preserve coherence.',
+    longDescription: 'Those who shape their environment through the power of being firmly, reliably, and correctly positioned. Their influence comes from the unwavering certainty of their presence. They are the stabilizing nodes in the network of life, creating order simply by embodying a consistent role. This type demonstrates stability developed from an internal understanding of temporal contexts. They recognize how past choices shape present conditions and how present actions open or close future paths. This gives them reliable foresight and timing.',
+    friendships: 'They engage through a framework of demonstrated reliability and easy resonance. Their attention is granted to those who prove themselves consistent and relatable. While open to intriguing qualities in others, they experience a subtle friction when encountering perspectives that challenge their deeply-rooted systems of understanding.',
+    examples: '"Let\'s slow down and get this right." "The current pace is unsustainable; we need to restore order." "My position on this is consistent."',
     strengths: extractedText.F.strengths,
     weaknesses: extractedText.F.weaknesses,
     color: 'bg-cyan-900/40 border-cyan-700', textColor: 'text-cyan-400', icon: IconF 
