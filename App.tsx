@@ -2,6 +2,7 @@
 import React, { useState, useCallback, useEffect, useRef } from 'react';
 import { InfluenceTypeId, Question, Result } from './types';
 import { ALL_QUESTIONS, INFLUENCE_TYPES, ANSWER_OPTIONS } from './constants';
+import InfluenceFrameworkInfo from './components/InfluenceFrameworkInfo';
 
 // For using html2canvas from CDN
 declare var html2canvas: any;
@@ -350,34 +351,29 @@ function App() {
   }
 
   return (
-    <main className="container mx-auto px-4 py-12 flex flex-col items-center justify-center min-h-screen text-center text-white">
-      <h1 className="text-5xl md:text-6xl font-extrabold mb-4 text-gray-100">The Influence Framework</h1>
-      <p className="text-xl md:text-2xl font-light text-cyan-300 mb-6">Discover how your presence moves in a room.</p>
-      <p className="max-w-3xl mx-auto text-lg text-gray-300 mb-10">
-        This framework isn’t about “who you are” as a personality. It’s about how your presence moves in a room. It tracks the direction of your influence and the way your energy interacts with other people and environments. This test helps you gain awareness of your influence pattern so you can stop acting on autopilot and recognize where your power truly comes from.
-      </p>
-      <button
-        onClick={handleStartQuiz}
-        className="bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-4 px-10 rounded-lg text-xl transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg hover:shadow-cyan-500/50"
-      >
-        Start the Test
-      </button>
+    <div className="bg-gray-900 text-white">
+      <main className="container mx-auto px-4 pt-20 pb-12 flex flex-col items-center justify-center min-h-[60vh] md:min-h-[70vh] text-center">
+        <h1 className="text-5xl md:text-7xl font-extrabold mb-4">
+           <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-cyan-400">
+              The Influence Framework
+          </span>
+        </h1>
+        <p className="text-xl md:text-2xl font-light text-cyan-300 mb-8 max-w-2xl">Discover how your presence moves in a room.</p>
+        <p className="max-w-3xl mx-auto text-lg text-gray-400 mb-12">
+            Understand your unique signature of impact. This test reveals the direction of your influence and how your energy interacts with others, helping you recognize where your power truly comes from.
+        </p>
+        <button
+          onClick={handleStartQuiz}
+          className="bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-4 px-10 rounded-lg text-xl transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg hover:shadow-cyan-500/50"
+        >
+          Start the Test
+        </button>
+      </main>
 
-      <div className="mt-16 w-full max-w-5xl">
-        <h2 className="text-3xl font-bold mb-8 text-gray-200">The Six Types of Influence</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
-          {INFLUENCE_TYPES.map(type => (
-            <div key={type.id} className={`p-6 rounded-lg border-2 ${type.color}`}>
-              <div className="flex items-center mb-3">
-                <type.icon className={`w-8 h-8 mr-3 ${type.textColor}`} />
-                <h3 className={`text-2xl font-bold ${type.textColor}`}>{type.name}</h3>
-              </div>
-              <p className="text-gray-300">{type.description}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </main>
+      <section className="pb-24">
+        <InfluenceFrameworkInfo />
+      </section>
+    </div>
   );
 }
 
