@@ -164,8 +164,8 @@ const ResultCard: React.FC<ResultCardProps> = ({ result }) => {
       <div className="flex items-center mb-4">
         <result.icon className={`w-16 h-16 mr-4 flex-shrink-0 ${result.textColor}`} />
         <div>
-          <h2 className={`text-3xl font-bold ${result.textColor}`}>Type {result.id}: {result.name}</h2>
-          <p className="text-gray-300">{result.title}</p>
+          <h2 className={`text-3xl font-bold ${result.textColor}`}>{result.name}</h2>
+          <p className="text-gray-300 mt-1">{result.description}</p>
         </div>
       </div>
       <div className="prose prose-invert max-w-none">
